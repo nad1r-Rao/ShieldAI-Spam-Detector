@@ -1,0 +1,19 @@
+
+services:
+  backend:
+    build: ./backend
+    container_name: shieldai-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/models:/app/models
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: shieldai-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: always
