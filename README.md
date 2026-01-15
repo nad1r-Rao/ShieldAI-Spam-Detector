@@ -5,6 +5,13 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
 ![Next JS](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white)
 
+<br />
+<div align="center">
+  <img src="dashboard-demo.png" alt="ShieldAI Dashboard" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p><em>Real-time Threat Detection Console</em></p>
+</div>
+<br />
+
 ShieldAI is a full-stack Trust & Safety platform designed to detect SMS and Email spam in real-time. It leverages a Microservices architecture with a specialized Machine Learning pipeline to identify high-risk messages with 98.8% accuracy.
 
 ## 🏗️ Architecture
